@@ -1,6 +1,6 @@
 # ERC UR3 Simulation
 
-This repository contains simulations of the Universal Robots UR3 robot created for the ERC competition. You can use docker with installed all requirements (#using-docker) section) or try to install them native.
+This repository contains simulations of the Universal Robots UR3 robot created for the ERC competition. You can use docker with all requirements installed  (#using-docker) section or try to install them natively.
 
 ## Using Docker
 
@@ -28,7 +28,7 @@ To use an integrated AMD/Intel Graphics card, run:
 ```
 bash run_ur3_docker_AMD_Intel_GRaphics.bash
 ```
-To use an Nvidia card, you need previous install proprietary drivers installed and Nvidia Container Toolkit (https://github.com/NVIDIA/nvidia-docker). . Next execute command:
+To use an Nvidia card, you need to previously install proprietary drivers and Nvidia Container Toolkit (https://github.com/NVIDIA/nvidia-docker). Next execute command:
 ``` 
 bash run_ur3_docker_Nvidia.bash
 ```
