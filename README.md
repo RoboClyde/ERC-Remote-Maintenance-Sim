@@ -46,7 +46,7 @@ Now you can run commands below in docker container.
 UR3 simulation in Gazebo with MoveIt! and RViz GUI:
 Simulation in Gazebo:
 ```
-$ roslaunch ur_simulation simulator.launch 
+$ roslaunch simulation simulator.launch 
 ```
 ## Install on the host system
 
@@ -77,6 +77,6 @@ source /catkin_ws/devel/setup.bash
 UR3 simulation in Gazebo with MoveIt! and RViz GUI:
 Simulation in Gazebo:
 ```
-$ roslaunch ur_simulation simulator.launch 
+$ roslaunch simulation simulator.launch 
 ```
 
