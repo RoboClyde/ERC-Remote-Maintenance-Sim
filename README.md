@@ -1,6 +1,6 @@
 # ERC UR3 Simulation
 
-This repository contains simulations of the Universal Robots UR3 robot created for the ERC competition. You can use docker with all requirements installed  ([Using Docker](#using-docker) section) or try to install them natively([Install on the host system](#install-on-the-host-system) section).
+This repository contains simulations of the Universal Robots UR3 robot created for the ERC competition. You can use docker with all requirements installed  ([Using Docker](#using-docker) section) or try to install them natively ([Install on the host system](#install-on-the-host-system) section).
 
 ## Using Docker
 
@@ -20,7 +20,7 @@ Build the docker image by executing:
 ./build_erc.sh 
 ```
 Create container:
-If you are running the system without using graphics card (not recommended), execute:
+If you are running the system with no dedicated GPU (not recommended), execute:
 ```
 bash run_ur3_docker.bash
 ```
